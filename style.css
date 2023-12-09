@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    position: relative;
+}
+h1 {
+    position: relative;
+}
+.counter {
+    font-size: 50px;
+    position: relative;
+}
+.loading-back {
+    position: absolute;
+    height: 20px;
+    width: 100%;
+
+    border: 1px solid black;
+}
+.loading-front {
+    position: absolute;
+    height: 21px;
+    width: 20%;
+    background-color: black;
+    border: none;
+}
